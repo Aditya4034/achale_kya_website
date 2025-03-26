@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chale Kya - Vehicle Sharing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Chale Kya</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#help">Help</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h2>Welcome to Chale Kya</h2>
+            <p>Affordable and convenient vehicle sharing solutions</p>
+        </div>
+        <img src="img4.jpeg" alt="Home Image" class="home-image">
+    </section>
+
+    <!-- User and Driver Input Section -->
+    <section id="ride-request" class="ride-request-section">
+        <div class="container">
+            <h2>Plan Your Trip</h2>
+            <div class="user-driver-form">
+                <div class="form-section">
+                    <h3>User Ride</h3>
+                    <form action="https://formspree.io/f/mvoevpea" method="post">
+                        <label for="user-location">From:</label>
+                        <input type="text" id="user-location" name="user-location" required>
+
+                        <label for="user-destination">To:</label>
+                        <input type="text" id="user-destination" name="user-destination" required>
+
+                        <label for="user-time">Time:</label>
+                        <input type="datetime-local" id="user-time" name="user-time" required>
+
+                        <button type="submit">Book Ride</button>
+                    </form>
+                </div>
+                <div class="form-section">
+                    <h3>Driver Ride</h3>
+                    <form action="https://formspree.io/f/mvoevpea" method="post">
+                        <label for="driver-location">From:</label>
+                        <input type="text" id="driver-location" name="driver-location" required>
+
+                        <label for="driver-destination">To:</label>
+                        <input type="text" id="driver-destination" name="driver-destination" required>
+
+                        <label for="driver-time">Time:</label>
+                        <input type="datetime-local" id="driver-time" name="driver-time" required>
+
+                        <button type="submit">Post Ride</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <ul class="benefits-list">
+                <li>Save Money</li>
+                <li>Source of Income for Drivers</li>
+                <li>Low Cost</li>
+                <li>Time Savings</li>
+                <li>Environmentally Friendly</li>
+                <li>Low Pollution</li>
+                <li>Better Communication</li>
+                <li>Efficient Travel Options</li>
+                <li>Community Building Through Shared Rides</li>
+                <li>Flexible Travel Plans</li>
+            </ul>
+        </div>
+    </section>
+    <br> <hr><br>
+
+    <!-- Help Section -->
+    <section id="help" style="background-color:  #f4f4f4;">
+        <div class="help-container">
+           <center> <h2>Help & FAQs</h2>
+            <p>Learn how to use the Chale Kya platform here.</p>
+
+            <div class="faq">
+                <h3>How to Book?</h3>
+                <p>Enter your location and time, and choose from the available vehicles.</p>
+            </div>
+            <div class="faq">
+                <h3>How to Pay?</h3>
+                <p>Pay online or directly to the driver.</p></center>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <img src="img1.jpeg" alt="Service 1">
+                    <h3>Travel from One Place to Another</h3>
+                    <p>Travel easily with Chale Kya.</p>
+                </div>
+                <div class="service-card">
+                    <img src="img2.jpeg" alt="Service 2">
+                    <h3>Item Transfer</h3>
+                    <p>Safely transfer items from one place to another.</p>
+                </div>
+                <div class="service-card">
+                    <img src="img3.jpeg" alt="Service 3">
+                    <h3>Food Delivery</h3>
+                    <p>Deliver food to its destination with freshness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/mvoevpea" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="mobile">Mobile Number:</label>
+                        <input type="tel" id="mobile" name="mobile" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Headquarters</h3>
+                    <p>MSP Ghuwara, Chhatarpur, MP</p>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13802.962515609877!2d79.07013765007274!3d24.507337800580395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397861d953e32973%3A0x81aa9a0fe29db971!2z4KSY4KWB4KS14KS-4KSw4KS-LCDgpK7gpKfgpY3gpK8g4KSq4KWN4KSw4KSm4KWH4KS2IDQ3MTMxMw!5e1!3m2!1shi!2sin!4v1728575976710!5m2!1shi!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Chale Kya. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
